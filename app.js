@@ -37,7 +37,19 @@ guessButton.addEventListener('click', () => {
     if (comparedResult === 0) {
         document.getElementById("guess-button").disabled = true;
         return results.textContent = 'Niceeeee you got it!';
+        
+            
     }
+
+
+function changeBackground() {
+    document.getElementById('results').style.background = 'green'
+}
+
+
+
+
+
 
     document.getElementById('number-input').value = '';
 });
