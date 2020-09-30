@@ -25,18 +25,18 @@ guessButton.addEventListener('click', () => {
 
     //TOO HIGH
     if (comparedResult === 1) {
-        return results.textContent = `Too high! Guesses remaining: ${totalGuesses}`;
+        return results.textContent = `Too high, my friend! Guesses remaining: ${totalGuesses}`;
     }
 
     //TOO LOW
     if (comparedResult === -1) {
-        return results.textContent = `Too low! Guesses remaining: ${totalGuesses}`;
+        return results.textContent = `Ah man, too low! Guesses remaining: ${totalGuesses}`;
     }
 
     // WIN
     if (comparedResult === 0) {
         document.getElementById("guess-button").disabled = true;
-        return results.textContent = 'You win! Congrats!';
+        return results.textContent = 'Niceeeee you got it!';
     }
 
     document.getElementById('number-input').value = '';
