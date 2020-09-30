@@ -7,7 +7,7 @@ const results = document.getElementById('results');
 const resetButton = document.getElementById('reset-button');
 
 
-let totalGuesses = 3;
+let totalGuesses = 4;
 let correctNumber = Math.floor(Math.random() * 10);
 
 
