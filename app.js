@@ -7,7 +7,7 @@ const results = document.getElementById('results');
 const resetButton = document.getElementById('reset-button');
 
 // initialize state
-let totalGuesses = 4;
+let totalGuesses = 3;
 let correctNumber = Math.floor(Math.random() * 15);
 
 // set event listeners to update state and DOM
@@ -41,7 +41,7 @@ guessButton.addEventListener('click', () => {
             
     }
 
-
+// This was me trying out an option to change the background for win or lose options. It didn't work the way I wanted it to. //
 function changeBackground() {
     document.getElementById('results').style.background = 'green'
 }
