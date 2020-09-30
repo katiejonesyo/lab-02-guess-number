@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <title></title>
+</head>
+
+<body>
+    <main>
+        <h1>Katie's Guessing Number Game</h1>
+        <section class='main-section'>
+            <p class="rules">
+                <center><u>Rules:</u>
+                <br>
+                I have picked a number between 1 and 20.
+                <br>
+                You have 3 attemps to guess which number that is. 
+                <br>
+                Good Luck!
+                </center> 
+            </p>
+            <input id="number-input" type=number></input>
+                <center>
+                    <button id="guess-button">Guess</button>
+                    <button id="reset-button">Reset</button>
+                </center> 
+            <span id="lowOrHigh"></span>
+            <span id="guesses-remaining"></span>
+            <section id='results'></section>
+        </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
