@@ -1,8 +1,8 @@
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(https://hips.hearstapps.com/clv.h-cdn.co/assets/15/22/1432664914-strawberry-facts1.jpg);
     display: flex;
+    background-image: url(https://hips.hearstapps.com/clv.h-cdn.co/assets/15/22/1432664914-strawberry-facts1.jpg);
     flex-direction: column;
     justify-content: center;
     align-items: center;
