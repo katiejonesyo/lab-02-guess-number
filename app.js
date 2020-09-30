@@ -41,15 +41,6 @@ guessButton.addEventListener('click', () => {
             
     }
 
-// This was me trying out an option to change the background for win or lose options. It didn't work the way I wanted it to. //
-function changeBackground() {
-    document.getElementById('results').style.background = 'green'
-}
-
-
-
-
-
 
     document.getElementById('number-input').value = '';
 });
