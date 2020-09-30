@@ -1,4 +1,3 @@
-// import { example } from '../example.js';
 import { compareNumbers } from '../compare-numbers.js';
 
 const test = QUnit.test;
